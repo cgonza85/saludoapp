@@ -29,8 +29,9 @@ pipeline {
             success {
                 echo " El build fue exitoso"
             }
-        failure {
-            echo " El build falló"
+            failure {
+                echo " El build falló"
+            }
         }
     }
 }
